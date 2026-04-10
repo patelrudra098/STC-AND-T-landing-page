@@ -205,9 +205,9 @@ function LogoText({
             key={`char-${i}`}
             className="inline-block"
             style={{
-              fontFamily: 'var(--font-cormorant), "Cormorant Garamond", "Georgia", serif',
+              fontFamily: 'var(--font-montserrat), "Montserrat", sans-serif',
               fontSize: isLarge ? 'clamp(3.5rem, 10vw, 8rem)' : 'clamp(1rem, 2.5vw, 1.5rem)',
-              fontWeight: isLarge ? 500 : 600,
+              fontWeight: isLarge ? 700 : 700,
               letterSpacing: isLarge ? '0.05em' : '0.04em',
               lineHeight: 1,
               // Premium gold gradient with shimmer
