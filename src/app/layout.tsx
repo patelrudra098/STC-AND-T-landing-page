@@ -1,4 +1,4 @@
-git add .import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Cormorant_Garamond } from "next/font/google";
 import { Montserrat } from "next/font/google";
